@@ -1,0 +1,40 @@
+1. Lectura de datos del asegurado:
+    1.2 Leer el nombre del asegurado.
+    1.3 Leer la edad del asegurado.
+    1.4 Verificar si la edad del asegurado es mayor o igual a 18 años.
+2. Validación de la edad:
+    2.1 Si la edad del asegurado es menor de 18 años:
+        2.1.1 Mostrar un mensaje indicando que el asegurado debe ser mayor de edad.
+        2.1.2 Finalizar el programa.
+    2.2 Si la edad del asegurado es mayor o igual a 18 años:
+        2.2.1 Continuar con el proceso.
+3. Verificación del estado civil:
+    3.1 Leer si el asegurado está casado/a.
+    3.2 Si está casado/a:
+        3.2.1 Leer la edad del cónyuge.
+        3.2.2 Verificar si la edad del cónyuge es mayor o igual a 18 años.
+    3.3 Si no está casado/a:
+        3.3.1 Continuar con el proceso.
+4. Validación de la edad del cónyuge:
+    4.1 Si el asegurado está casado/a y la edad del cónyuge es menor de 18 años:
+    4.2 Mostrar un mensaje indicando que la edad del cónyuge debe ser mayor de edad.
+    4.3 Finalizar el programa.
+    4.3 Si el asegurado está casado/a y la edad del cónyuge es mayor o igual a 18 años:
+    4.5 Continuar con el proceso.
+5. Lectura de la cantidad de hijos:
+    5.1 Leer si el asegurado tiene hijos/as.
+    5.2 Si tiene hijos/as:
+        5.2.1 Leer la cantidad de hijos/as que tiene el asegurado.
+    5.3 Si no tiene hijos/as:
+        5.3.1 Continuar con el proceso.
+6. Cálculo de recargos:
+    6.1 Calcular el recargo basado en la edad del asegurado según los rangos establecidos.
+    6.2 Calcular el recargo basado en la edad del cónyuge si está casado/a y según los rangos establecidos.
+    6.3 Calcular el recargo por la cantidad de hijos/as según el recargo fijo establecido.
+7. Cálculo del precio final:
+    7.1 Calcular el precio final sumando el precio base y todos los recargos calculados.
+8. Mostrar resultados:
+    8.1 Mostrar el nombre del asegurado.
+    8.2 Mostrar el recargo total y los detalles de cada recargo.
+    8.3 Mostrar el precio final de la cotización.
+9. Fin

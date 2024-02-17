@@ -1,0 +1,32 @@
+El problema principal que enfrenta la empresa de seguros TK-U es que actualmente 
+realizan cotizaciones de manera manual, lo que consume mucho tiempo y limita la 
+cantidad de cotizaciones que pueden generar en un día, causando retrasos en la 
+entrega de las mismas y posiblemente perdiendo clientes potenciales.
+
+La solución y el como abordaremos el problema será mediante la creación de un 
+sistema de cotización que permita a los clientes obtener una cotización de manera
+rápida y sencilla, además de permitir a los empleados de la empresa generar 
+cotizaciones de manera más eficiente.
+
+El cotizador calculará el precio de la cotización basado en criterios 
+definidos por la empresa, como la edad del cliente, si esta casado y la edad de 
+su cónyuge y el número de hijos.
+
+Los casos a considerar para que cambie el valor de la cotización son:
+
+Edad del asegurado
+- Si el asegurado es menor de 18 años, se le considera como menor de edad y se
+rechaza la solicitud.
+- Si el asegurado tiene de 18 a 24 años, se le dara un recargo del 10% del precio base.
+- Si el asegurado tiene de 25 a 40 años, se le dara un recargo del 20% del precio base.
+- Si el asegurado tiene de 50 años o más, se le dara un recargo del 30% del precio base.
+
+Estado civil y edad del cónyuge
+- Si el asegurado esta casado
+    - Si el cónyuge tiene de 18 a 24 años, se le dara un descuento del 10% del precio base.
+    - Si el cónyuge tiene de 25 a 40 años, se le dara un descuento del 20% del precio base.
+    - Si el cónyuge tiene de 50 años o más, se le dara un descuento del 30% del precio base.
+- Si el asegurado no esta casado, no se le aplicara ningún recargo
+
+Número de hijos
+- Se aplicara un recargo fijo del 20% sobre el precio base por cada hijo que se tenga.
